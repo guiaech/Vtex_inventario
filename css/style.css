@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+
+
+.section-container{
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content: space-around;
+  background-color: #d3d3d3;
+
+}
+
+.logo{
+    height: 400px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    background-color: #d3d3d3;
+}
+
+.footer{
+    background: black;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+.area{
+  position:center;
+  left:auto;
+  top:auto;
+  width:320px;
+  height:auto;
+}
+
+
+#formulario-dois{
+  position:absolute;
+  display:solid;
+}
+
+#formulario{
+  position:absolute;
+  display:solid;
+}
+
+fieldset{
+  display:solid;
+  justify-content:center;
+  width:350px;
+  height:300px;
+}
+
+legend{
+  font-style:bold;
+  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+  color: blue;
+}
+
+#formulario input.campo_nome{
+  position:auto;
+  margin-top:30px;
+  width:300px;
+}
+
+#formulario input.campo_email{
+  position:auto;
+  left:auto;
+  margin-top:30px;
+  width:300px;
+}
+
+#formulario input.campo_tel{
+    position:auto;
+    margin-top:30px;
+    width:282px;
+}
+
+#formulario input.campo_end{
+    position:auto;
+    margin-top:30px;
+    width:280px;
+}
+
+#formulario input.campo_CPF{
+    position:auto;
+    margin-top:30px;
+    width:310px;
+}
+
+
+.btn-submit{
+  border-style:dashed;
+  position:absolute;
+  bottom: 1em;
+  right:10px;
+  background-color:#f1ff00;
+
+}
+
+
+.area-2{
+  position:center;
+  left:auto;
+  top:auto;
+  width:320px;
+  height:auto;
+}
+
+
+#formulario-dois input.campo_name{
+    position:auto;
+    margin-top:30px;
+    width:300px;
+  }
+  
+#formulario-dois input.campo_cod{
+    position:auto;
+    margin-top:30px;
+    width:290px;
+}
+
+#formulario-dois input.campo_desc{
+      position:auto;
+      margin-top:30px;
+      width:275px;
+}
+  
+#formulario-dois input.campo_forn{
+      position:auto;
+      margin-top:30px;
+      width:265px;
+}
+
+#formulario-dois input.campo_price{
+      position:auto;
+      margin-top:30px;
+      width:300px;
+}
+  
+.btn-submitdois{
+    border-style:dashed;
+    position:absolute;
+    bottom: 1em;
+    right:10px;
+    background-color:#f1ff00;
+}

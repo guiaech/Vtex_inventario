@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inventario</title>
+</head>
+<body>
+    <header class="logo">
+        <img src="./assets/logo.png" alt= "logo">
+
+    </header>
+
+    <section class="section-container">
+
+        <div class="area" id="content">
+            <form id="formulario">
+                <fieldset>
+                  <legend>Cadastro de clientes</legend>
+                  <label>Nome:</label><input class="campo_nome" type="text" placeholder="nome" id="nome">
+                  <label>CPF:</label><input class="campo_CPF"type="text" placeholder="CPF" id="CPF">
+                  <label>Email:</label><input class="campo_email"type="text" placeholder="email" id="email">
+                  <label>Telefone:</label><input class="campo_tel" type="text" placeholder="telefone" id="telefone">
+                  <label>Endereço:</label><input class="campo_end"type="text" placeholder="endereco" id="endereco">
+                  <input class="btn-submit" type="submit" value="Cadastrar">
+                </fieldset>
+            </form>
+        </div>
+        
+        <div class="area-2" id="content-dois">
+            <form id="formulario-dois">
+                <fieldset>
+                  <legend>Cadastro de produtos</legend>
+                  <label>Nome:</label><input class="campo_name" type="text" placeholder="name" id="nomef">
+                  <label>Código:</label><input class="campo_cod"type="text" placeholder="COD" id="COD">
+                  <label>Descrição:</label><input class="campo_desc"type="text" placeholder="descrição" id="desc">
+                  <label>Fornecedor:</label><input class="campo_forn" type="text" placeholder="fornecedor" id="fornecedor">
+                  <label>Preço:</label><input class="campo_price"type="text" placeholder="preço" id="preco">
+                  <input class="btn-submitdois" type="submit" value="Cadastrar">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Todos os direitos reservados</p>
+    </footer>    
+</body>
+<script src="js/script.js"></script>
+</html>
