@@ -200,3 +200,12 @@ legend {
   background: linear-gradient(to right, orangered, orange);
   cursor: pointer;
 }
+
+.cadastrado{
+  background:black;
+  color: white;
+  border-style:double;
+  text-align: center;
+  border-width: 5px;
+  border-radius: 1px;
+}

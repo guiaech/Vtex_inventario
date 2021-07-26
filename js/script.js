@@ -21,9 +21,9 @@ form.addEventListener('submit', (e) => {
 
     let content = document.getElementById('content')
 
-    let carregando = `<p>carregando...</p>`
+    let carregando = `<p>CARREGANDO...</p>`
 
-    let pronto = `<p>pronto</p>`
+    let pronto = `<p class="cadastrado">CADASTRADO</p>`
 
     content.innerHTML = carregando
 
@@ -57,9 +57,9 @@ formi.addEventListener('submit', (e) => {
 
     let content = document.getElementById('content-dois')
 
-    let carregando = `<p>carregando...</p>`
+    let carregando = `<p>CARREGANDO...</p>`
 
-    let pronto = `<p>pronto</p>`
+    let pronto = `<p class="cadastrado">CADASTRADO</p>`
 
     content.innerHTML = carregando
 
