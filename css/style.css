@@ -1,152 +1,202 @@
-*{
-    margin:0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-
-.section-container{
-  width:100%;
-  height:100vh;
-  display:flex;
+.section-container {
+  width: 100%;
+  height: 130vh;
+  display: flex;
   justify-content: space-around;
   background-color: #d3d3d3;
-
 }
 
-.logo{
-    height: 400px;
-    width:100%;
-    display:flex;
-    justify-content:center;
-    background-color: #d3d3d3;
+.logo {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #d3d3d3;
 }
 
-.footer{
-    background: black;
-    text-align: center;
-    color: blanchedalmond;
+.footer {
+  background: black;
+  text-align: center;
+  color: blanchedalmond;
 }
 
-
-.area{
-  position:center;
-  left:auto;
-  top:auto;
-  width:320px;
-  height:auto;
+.area {
+  position: sticky;
+  left: auto;
+  top: auto;
+  width: 320px;
+  height: auto;
 }
 
-
-#formulario-dois{
-  position:absolute;
-  display:solid;
-}
-
-#formulario{
-  position:absolute;
-  display:solid;
-}
-
-fieldset{
-  display:solid;
-  justify-content:center;
-  width:350px;
-  height:300px;
-}
-
-legend{
-  font-style:bold;
-  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
-  color: blue;
-}
-
-#formulario input.campo_nome{
-  position:auto;
-  margin-top:30px;
-  width:300px;
-}
-
-#formulario input.campo_email{
-  position:auto;
-  left:auto;
-  margin-top:30px;
-  width:300px;
-}
-
-#formulario input.campo_tel{
-    position:auto;
-    margin-top:30px;
-    width:282px;
-}
-
-#formulario input.campo_end{
-    position:auto;
-    margin-top:30px;
-    width:280px;
-}
-
-#formulario input.campo_CPF{
-    position:auto;
-    margin-top:30px;
-    width:310px;
+.area-2 {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 320px;
+  height: auto;
 }
 
 
-.btn-submit{
-  border-style:dashed;
-  position:absolute;
-  bottom: 1em;
-  right:10px;
-  background-color:#f1ff00;
-
+#formulario-dois {
+  display: flex;
+  flex-direction: column;
 }
 
-
-.area-2{
-  position:center;
-  left:auto;
-  top:auto;
-  width:320px;
-  height:auto;
+#formulario {
+  display: flex;
+  flex-direction: column;
 }
 
-
-#formulario-dois input.campo_name{
-    position:auto;
-    margin-top:30px;
-    width:300px;
-  }
-  
-#formulario-dois input.campo_cod{
-    position:auto;
-    margin-top:30px;
-    width:290px;
+fieldset {
+  width: 250px;
+  background: linear-gradient(purple, darkblue);
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+  align-items: center;
+  line-height: 50px;
 }
 
-#formulario-dois input.campo_desc{
-      position:auto;
-      margin-top:30px;
-      width:275px;
-}
-  
-#formulario-dois input.campo_forn{
-      position:auto;
-      margin-top:30px;
-      width:265px;
+legend {
+  font-style: italic;
+  font-family: “Segoe UI”, ”Arial”, ”Times New Roman”;
+  color: white;
+  background-color: black;
+  font-size: x-large;
+  border-style: dotted;
 }
 
-#formulario-dois input.campo_price{
-      position:auto;
-      margin-top:30px;
-      width:300px;
+#formulario input.campo_nome {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
 }
-  
-.btn-submitdois{
-    border-style:dashed;
-    position:absolute;
-    bottom: 1em;
-    right:10px;
-    background-color:#f1ff00;
+
+#formulario input.campo_email {
+  position: auto;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+#formulario input.campo_tel {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+#formulario input.campo_end {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+#formulario input.campo_CPF {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+.btn-submit {
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(to right, orangered, orange);
+  cursor: pointer;
+}
+
+.area-2 {
+  position: center;
+  left: auto;
+  top: auto;
+  width: 320px;
+  height: auto;
+}
+
+#formulario-dois input.campo_name {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+#formulario-dois input.campo_cod {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+#formulario-dois input.campo_desc {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+#formulario-dois input.campo_forn {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+#formulario-dois input.campo_price {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+.btn-submitdois {
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(to right, orangered, orange);
+  cursor: pointer;
 }
