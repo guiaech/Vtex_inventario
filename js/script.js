@@ -53,7 +53,7 @@ formi.addEventListener('submit', (e) => {
     }
     let convertProduto = JSON.stringify(produto);
 
-    localStorage.setItem('lead', convertProduto)
+    localStorage.setItem('lead-two', convertProduto)
 
     let content = document.getElementById('content-dois')
 
