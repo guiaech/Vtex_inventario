@@ -7,8 +7,8 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content:space-evenly;
-  background-color: #d3d3d3;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to right, white, blue);
 }
 
 .logo {
@@ -16,11 +16,11 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #d3d3d3;
+  background-image: linear-gradient(to right, white, blue);
 }
 
 .footer {
-  background: black;
+  background-image: linear-gradient(rgb(144, 144, 230), rgb(20, 20, 112));
   text-align: center;
   color: blanchedalmond;
 }
@@ -42,85 +42,44 @@
 }
 
 
-#formulario-dois {
-  display: flex;
-  flex-direction: column;
-}
-
-#formulario {
-  display: flex;
-  flex-direction: column;
-}
 
 fieldset {
   width: 250px;
-  background: linear-gradient(black, darkblue);
+  background: linear-gradient(blue, white);
   border-radius: 15px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
   color: #fff;
   align-items: center;
   line-height: 50px;
+  border-style: none;
 }
 
 legend {
-  font-style: italic;
-  font-family: “Segoe UI”, ”Arial”, ”Times New Roman”;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
   color: white;
-  background-color: black;
+  background-image: linear-gradient(rgb(104, 104, 243), blue);
   font-size: x-large;
-  border-style: dotted;
+  border-style: linear;
+  border-radius: 10px;
 }
 
-#formulario input.campo_nome {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
 
-#formulario input.campo_email {
+input {
   position: auto;
-  width: 80%;
-  margin: 0 auto;
+  width: 87%;
+  margin: auto;
   padding: 10px;
   border: none;
   margin-bottom: 10px;
   border-radius: 50px;
 }
 
-#formulario input.campo_tel {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
-
-#formulario input.campo_end {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
-
-#formulario input.campo_CPF {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
 
 .btn-submit {
   padding: 10px;
@@ -131,62 +90,10 @@ legend {
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
-  background: linear-gradient(to right, orangered, orange);
+  background: linear-gradient(black, red);
   cursor: pointer;
 }
 
-.area-2 {
-  position: center;
-  left: auto;
-  top: auto;
-  width: 320px;
-  height: auto;
-}
-
-#formulario-dois input.campo_name {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
-
-#formulario-dois input.campo_cod {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
-
-#formulario-dois input.campo_desc {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
-
-#formulario-dois input.campo_forn {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
-
-#formulario-dois input.campo_price {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 50px;
-}
 
 .btn-submitdois {
   padding: 10px;
@@ -197,14 +104,14 @@ legend {
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
-  background: linear-gradient(to right, orangered, orange);
+  background: linear-gradient(black, red);
   cursor: pointer;
 }
 
-.cadastrado{
-  background:black;
+.cadastrado {
+  background: linear-gradient(black, red);
   color: white;
-  border-style:double;
+  border-style: double;
   text-align: center;
   border-width: 5px;
   border-radius: 1px;
