@@ -3,6 +3,21 @@
   padding: 0;
 }
 
+area {
+  posição : relativa;
+  esquerda : automático;
+  topo : automático;
+  largura :  320 px ;
+  altura : automático;
+}
+
+. area-2 {
+  posição : relativa;
+  esquerda : automático;
+  topo : automático;
+  largura :  320 px ;
+  altura : automático;
+}
 .section-container {
   width: 100%;
   height: 100vh;
