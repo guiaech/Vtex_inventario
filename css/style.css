@@ -3,20 +3,20 @@
   padding: 0;
 }
 
-area {
-  posição : relativa;
-  esquerda : automático;
-  topo : automático;
-  largura :  320 px ;
-  altura : automático;
+.area {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 320px;
+  height: auto;
 }
 
-. area-2 {
-  posição : relativa;
-  esquerda : automático;
-  topo : automático;
-  largura :  320 px ;
-  altura : automático;
+.area-2 {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 320px;
+  height: auto;
 }
 .section-container {
   width: 100%;
