@@ -9,6 +9,8 @@
   display: flex;
   justify-content: space-evenly;
   background-image: linear-gradient(to right, white, blue);
+  min-width: 550px;
+
 }
 
 .logo {
@@ -17,12 +19,16 @@
   display: flex;
   justify-content: center;
   background-image: linear-gradient(to right, white, blue);
+  min-width: 550px;
+
 }
 
 .footer {
   background-image: linear-gradient(rgb(144, 144, 230), rgb(20, 20, 112));
   text-align: center;
   color: blanchedalmond;
+  min-width: 550px;
+
 }
 
 .area {
